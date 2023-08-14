@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Responsive Admin Dashboard Template">
+        <meta name="keywords" content="admin,dashboard">
+        <meta name="author" content="skcats">
+        <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        
+        <!-- Title -->
+        <title></title>
+
+        <!-- Styles -->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/plugins/icomoon/style.css" rel="stylesheet">
+        <link href="assets/plugins/uniform/css/default.css" rel="stylesheet"/>
+        <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet"/>
+        <link href="assets/plugins/gridgallery/css/component.css" rel="stylesheet">    
+        <!-- Theme Styles -->
+        <link href="assets/css/ecaps.min.css" rel="stylesheet">
+        <link href="assets/css/custom.css" rel="stylesheet">
+  <script src="assets/plugins/gridgallery/js/modernizr.custom.js"></script>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        
+        <!-- Page Container -->
+        <div class="page-container">
+            <!-- Page Sidebar -->
+  
+            
+            <!-- Page Content -->
+            <div class="page-content">            
+                <!-- Page Header -->
+             
+                <!-- Page Inner -->
+                <div class="page-inner">
+                    <div class="page-title">
+                      <h3 class="breadcrumb-header">J2 Hair 賓果開獎</h3>
+                    </div>
+                <div id="main-wrapper">
+                    <div class="row">
+                            <div class="col-md-12">
+                            <div class="panel panel-white">
+                                <div class="panel-body">
+                                   <div align="center" id="Num" class="text64">J2 Hair Bingo</div>
+                                     <hr>
+                                     
+                                    <button type="button" class="btn btn-primary btn-lg" onClick="ResetNumber()">重新洗球</button>
+                                  <button type="button" class="btn btn-primary btn-lg" onClick="GetNumber()" id="BtnNext" disabled>下一顆球</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="panel panel-white">
+                                <div class="panel-heading clearfix">
+                                    <h3 class="panel-title">已開出號碼球</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                           
+                                            <tbody>
+                                                <tr class="text24B" align="center">
+                                                    <th scope="row">B</th>
+                                                    <td><div id="No1"></div></td>
+                                                    <td><div id="No2"></div></td>
+                                                    <td><div id="No3"></div></td>
+                                                    <td><div id="No4"></div></td>
+                                                    <td><div id="No5"></div></td>
+                                                    <td><div id="No6"></div></td>
+                                                    <td><div id="No7"></div></td>
+                                                    <td><div id="No8"></div></td>
+                                                    <td><div id="No9"></div></td>
+                                                    <td><div id="No10"></div></td>
+                                                    <td><div id="No11"></div></td>
+                                                    <td><div id="No12"></div></td>
+                                                    <td><div id="No13"></div></td>
+                                                    <td><div id="No14"></div></td>
+                                                    <td><div id="No15"></div></td>
+                                                </tr>
+                                               <tr class="text24I" align="center">
+                                                    <th scope="row">I</th>
+                                                    <td><div id="No16"></div></td>
+                                                    <td><div id="No17"></div></td>
+                                                    <td><div id="No18"></div></td>
+                                                    <td><div id="No19"></div></td>
+                                                    <td><div id="No20"></div></td>
+                                                    <td><div id="No21"></div></td>
+                                                    <td><div id="No22"></div></td>
+                                                    <td><div id="No23"></div></td>
+                                                    <td><div id="No24"></div></td>
+                                                    <td><div id="No25"></div></td>
+                                                    <td><div id="No26"></div></td>
+                                                    <td><div id="No27"></div></td>
+                                                    <td><div id="No28"></div></td>
+                                                    <td><div id="No29"></div></td>
+                                                    <td><div id="No30"></div></td>
+                                                </tr>
+                                                <tr class="text24N" align="center">
+                                                    <th scope="row">N</th>
+                                                    <td><div id="No31"></div></td>
+                                                    <td><div id="No32"></div></td>
+                                                    <td><div id="No33"></div></td>
+                                                    <td><div id="No34"></div></td>
+                                                    <td><div id="No35"></div></td>
+                                                    <td><div id="No36"></div></td>
+                                                    <td><div id="No37"></div></td>
+                                                    <td><div id="No38"></div></td>
+                                                    <td><div id="No39"></div></td>
+                                                    <td><div id="No40"></div></td>
+                                                    <td><div id="No41"></div></td>
+                                                    <td><div id="No42"></div></td>
+                                                    <td><div id="No43"></div></td>
+                                                    <td><div id="No44"></div></td>
+                                                    <td><div id="No45"></div></td>
+                                                 </tr>   
+                                                 <tr class="text24G" align="center">
+                                                    <th scope="row">G</th>
+                                                    <td><div id="No46"></div></td>
+                                                    <td><div id="No47"></div></td>
+                                                    <td><div id="No48"></div></td>
+                                                    <td><div id="No49"></div></td>
+                                                    <td><div id="No50"></div></td>
+                                                    <td><div id="No51"></div></td>
+                                                    <td><div id="No52"></div></td>
+                                                    <td><div id="No53"></div></td>
+                                                    <td><div id="No54"></div></td>
+                                                    <td><div id="No55"></div></td>
+                                                    <td><div id="No56"></div></td>
+                                                    <td><div id="No57"></div></td>
+                                                    <td><div id="No58"></div></td>
+                                                    <td><div id="No59"></div></td>
+                                                    <td><div id="No60"></div></td>
+                                                </tr>
+                                                <tr class="text24O" align="center">
+                                                    <th scope="row">O</th>
+                                                    <td><div id="No61"></div></td>
+                                                    <td><div id="No62"></div></td>
+                                                    <td><div id="No63"></div></td>
+                                                    <td><div id="No64"></div></td>
+                                                    <td><div id="No65"></div></td>
+                                                    <td><div id="No66"></div></td>
+                                                    <td><div id="No67"></div></td>
+                                                    <td><div id="No68"></div></td>
+                                                    <td><div id="No69"></div></td>
+                                                    <td><div id="No70"></div></td>
+                                                    <td><div id="No71"></div></td>
+                                                    <td><div id="No72"></div></td>
+                                                    <td><div id="No73"></div></td>
+                                                    <td><div id="No74"></div></td>
+                                                    <td><div id="No75"></div></td>
+                                                 </tr>   
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div><!-- Row -->
+                </div><!-- Main Wrapper -->
+                <div class="page-footer">
+                    <p>Copyright &copy; 2023 J2 Hair All rights reserved.</p>
+                </div>
+                </div><!-- /Page Inner -->
+          
+   
+            </div><!-- /Page Content -->
+        </div><!-- /Page Container -->
+        
+        
+        <!-- Javascripts -->
+        <script src="assets/plugins/jquery/jquery-3.1.0.min.js"></script>
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="assets/plugins/uniform/js/jquery.uniform.standalone.js"></script>
+        <script src="assets/plugins/switchery/switchery.min.js"></script>
+        <script src="assets/js/ecaps.min.js"></script>
+    </body>
+</html>
+<script>
+    
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75];
+
+var result = [];
+
+var ranNum = 75;
+var vBtn = document.getElementById("BtnNext");	
+var NowNum=0;	
+function ResetNumber() {
+	   
+	   NowNum=0;
+	   arr = [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75];arr = [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75];
+	   result.length = 0;
+	   vBtn.disabled=false;
+	var ShowNumber1 = document.getElementById("Num");
+	   ShowNumber1.innerHTML = "J2 Hair Bingo";
+	   ClearArea();
+       goRandom();
+	   }
+	
+function GetNumber() {
+
+      showResult();
+	   }
+function goRandom()
+{
+for (var i = 0; i < ranNum; i++) {
+
+var ran = Math.floor(Math.random() * arr.length);
+
+result.push(arr.splice(ran, 1)[0]);
+
+};
+
+}
+
+function showResult()
+{
+ if(NowNum>74){
+     alert("已全部開完!");
+	 vBtn.disabled = true;
+	 return;
+ }	
+ var NowNumber=result[NowNum];	
+ var ShowNumber = document.getElementById("Num");
+	ShowNumber.innerHTML = NowNumber;
+ var NumArea = document.getElementById("No"+NowNumber);
+	NumArea.innerHTML= NowNumber;
+	
+	NowNum++;
+		
+}
+function ClearArea()
+{
+	for (var i =1;i<= 75; i++)
+	{
+	 document.getElementById("No"+i).innerHTML="";	
+	}	
+		
+}
+</script>
